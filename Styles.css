@@ -1,0 +1,74 @@
+body{ margin: 0cm}
+
+.cover {height: 400px; background-image: url(Imagenes/background.jpg); color: white; background-size: cover; background-position: center;
+background-color: black; background-color: rgba(0, 0, 0, 1);
+}
+
+.cuadrado {
+     width: 100px;
+     height: 100px;
+     background: #428bca;
+}
+.rectangulo {
+     width: 250px;
+     height: 100px;
+     border: 3px solid #555;
+     background: #428bca;
+}
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 80px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 140px;
+  background-color: #2196F3; /* Blue */
+}
+
+#projects {
+  top: 200px;
+  background-color: #f44336; /* Red */
+}
+
+#contact {
+  top: 260px;
+  background-color: #555 /* Light Black */
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.complejidad {width: 90%; background-color: #4CAF50;} /* Green */
+.Habilidad-inicial {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
